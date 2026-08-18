@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_stage/
+
+# Build outputs
+dist/
+build/
+bin/
+obj/
+out/
+.expo/
+.next/
+.nuxt/
+.docusaurus/
+.serverless/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+tmp/
+temp/
+scratch/
+uploads/
