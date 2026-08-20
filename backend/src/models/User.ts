@@ -5,7 +5,7 @@ export interface IUser extends Document {
   employeeId: string; // Or studentId
   username: string;
   passwordHash: string;
-  role: 'super_admin' | 'principal' | 'teacher' | 'coordinator' | 'staff' | 'student';
+  role: 'super_admin' | 'principal' | 'teacher' | 'coordinator' | 'staff' | 'student' | 'PGT' | 'TGT' | 'PRT' | 'NT' | 'MTS';
   department: string;
   permissions: string[];
   status: 'active' | 'suspended';
@@ -25,7 +25,7 @@ const UserSchema = new Schema<IUser>(
     role: {
       type: String,
       required: true,
-      enum: ['super_admin', 'principal', 'teacher', 'coordinator', 'staff', 'student'],
+      enum: ['super_admin', 'principal', 'teacher', 'coordinator', 'staff', 'student', 'PGT', 'TGT', 'PRT', 'NT', 'MTS'],
     },
     department: { type: String, required: true },
     permissions: [{ type: String }],
