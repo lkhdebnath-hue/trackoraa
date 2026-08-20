@@ -4,7 +4,7 @@ interface UserPayload {
   id: string;
   employeeId: string;
   username: string;
-  role: 'super_admin' | 'principal' | 'teacher' | 'coordinator' | 'staff' | 'student';
+  role: 'super_admin' | 'principal' | 'teacher' | 'coordinator' | 'staff' | 'student' | 'PGT' | 'TGT' | 'PRT' | 'NT' | 'MTS';
   department: string;
   permissions: string[];
 }
