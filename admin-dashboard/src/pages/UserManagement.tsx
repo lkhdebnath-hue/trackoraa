@@ -15,7 +15,7 @@ import {
 } from '@mui/icons-material';
 import { api } from '../services/api';
 
-const ROLES = ['super_admin', 'principal', 'teacher', 'coordinator', 'staff', 'student'];
+const ROLES = ['super_admin', 'principal', 'teacher', 'coordinator', 'staff', 'student', 'PGT', 'TGT', 'PRT', 'NT', 'MTS'];
 const DEPARTMENTS = ['Administration', 'Science', 'Mathematics', 'Humanities', 'Sports', 'IT Support'];
 const AVAILABLE_PERMISSIONS = ['all', 'create_tasks', 'edit_tasks', 'delete_tasks', 'view_reports', 'clock_in_out'];
 
